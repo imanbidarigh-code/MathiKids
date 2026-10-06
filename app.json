@@ -1,5 +1,10 @@
 {
   "plugins": [
     "expo-audio"
-  ]
+  ],
+  "extra": {
+    "eas": {
+      "projectId": "07546e92-5db4-4618-96d0-b4271f134546"
+    }
+  }
 }
