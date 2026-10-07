@@ -2,6 +2,7 @@
   "expo": {
     "name": "MathiKids",
     "slug": "mathikids",
+    "icon": "./assets/icon.png",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
@@ -9,9 +10,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#FFF8E7"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.imanbidarigh.mathikids"
@@ -19,18 +18,11 @@
     "android": {
       "package": "com.imanbidarigh.mathikids",
       "adaptiveIcon": {
-        "backgroundColor": "#FFF8E7"
-      },
-      "permissions": [
-        "android.permission.RECORD_AUDIO",
-        "android.permission.MODIFY_AUDIO_SETTINGS",
-        "android.permission.FOREGROUND_SERVICE",
-        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
-      ]
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFD43B"
+      }
     },
-    "plugins": [
-      "expo-audio"
-    ],
+    "plugins": ["expo-audio"],
     "extra": {
       "eas": {
         "projectId": "9efc714b-769a-4dc9-ba45-e266b8ce6aae"
