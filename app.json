@@ -7,8 +7,9 @@
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "splash": {
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#FFF8E7"
+      "backgroundColor": "#FFD43B"
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
