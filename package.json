@@ -1,28 +1,24 @@
 {
-  "name": "zarb-mission",
+  "name": "mathikids",
   "version": "1.0.0",
   "private": true,
-  "description": "مأموریت ضرب — اپ اندروید و iOS",
+  "main": "index.js",
   "scripts": {
-    "sync": "cap sync",
-    "open:android": "cap open android",
-    "open:ios": "cap open ios",
-    "build:android": "cap sync android && cd android && ./gradlew assembleRelease",
-    "build:ios": "cap sync ios && cap open ios"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
   },
   "dependencies": {
-    "@capacitor/android": "^6.1.2",
-    "@capacitor/core": "^6.1.2",
-    "@capacitor/ios": "^6.1.2",
     "@react-native-async-storage/async-storage": "2.2.0",
-    "expo": "^57.0.26",
+    "expo": "~57.0.26",
     "expo-audio": "~57.0.5",
-    "expo-av": "^16.0.8",
+    "expo-status-bar": "~3.0.9",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "react-native": "0.86.3"
   },
   "devDependencies": {
-    "@capacitor/cli": "^6.1.2"
+    "@babel/core": "^7.25.0"
   }
 }
